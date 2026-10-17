@@ -2,12 +2,14 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import heroSrc from "@/assets/hero-clean.jpg";
 const hero = { url: heroSrc };
-import competentSrc from "@/assets/competent2.jpg";
+import competentSrc from "@/assets/tour/tour-open-learning-courtyards.jpg";
 const competent = { url: competentSrc };
-import compassionateSrc from "@/assets/compassionate.jpg";
+import compassionateSrc from "@/assets/tour/tour-outdoor-learning.jpg";
 const compassionate = { url: compassionateSrc };
-import consciousSrc from "@/assets/conscious2.jpg";
+import consciousSrc from "@/assets/tour/tour-founding-educators.jpg";
 const conscious = { url: consciousSrc };
+import foundersSrc from "@/assets/tour/tour-founders.jpg";
+const founders = { url: foundersSrc };
 import { ADDRESS, Card, Heading, MAP, MobileBar, PHONE, SiteFooter, SiteHeader, TEL, Underline, inputCls, useLeadSubmit } from "@/components/ekaaya";
 
 export const Route = createFileRoute("/tour")({
@@ -77,7 +79,7 @@ function TourForm() {
 
 const HIGHLIGHTS = [
   { img: competent.url, t: "Open learning courtyards", d: "Classrooms that open into green, light-filled spaces." },
-  { img: compassionate.url, t: "Under the Amra canopy", d: "Outdoor inquiry, stories and play beneath the mango trees." },
+  { img: compassionate.url, t: "Outdoor learning", d: "Outdoor inquiry, stories and play beneath the mango trees." },
   { img: conscious.url, t: "Meet the founding educators", d: "Sit with the people who will know your child by name." },
 ];
 
@@ -153,7 +155,7 @@ function TourPage() {
 
       {/* Founders */}
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 md:grid-cols-2">
-        <img src={conscious.url} alt="Children exploring at Ekaaya" className="aspect-[4/3] w-full rounded-2xl border-4 border-card object-cover object-[center_25%] shadow-md" loading="lazy" />
+        <img src={founders.url} alt="Children exploring at Ekaaya" className="aspect-[4/3] w-full rounded-2xl border-4 border-card object-cover object-[center_25%] shadow-md" loading="lazy" />
         <div>
           <Heading script="From the founding team" title="Built Today. For What Comes Next." />
           <p className="mt-5 font-serif text-xl italic text-foreground/85">"This is our first year, so every family who walks in helps shape what Ekaaya becomes. Come meet us before you decide anything."</p>

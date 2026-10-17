@@ -1,11 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
-import compassionateSrc from "@/assets/compassionate.jpg";
+import compassionateSrc from "@/assets/early-years/early-years-hero.jpg";
 const compassionate = { url: compassionateSrc };
-import artsSrc from "@/assets/life-arts.jpg";
+import artsSrc from "@/assets/early-years/early-years-play-based-inquiry.jpg";
 const arts = { url: artsSrc };
-import wellbeingSrc from "@/assets/life-wellbeing.jpg";
+import wellbeingSrc from "@/assets/early-years/early-years-emotional-wellbeing.jpg";
 const wellbeing = { url: wellbeingSrc };
-import sportsSrc from "@/assets/life-sports.jpg";
+import sportsSrc from "@/assets/early-years/early-years-caretaker-attention.jpg";
 const sports = { url: sportsSrc };
 import { Card, Heading, MobileBar, SiteFooter, SiteHeader, Underline, inputCls, useLeadSubmit } from "@/components/ekaaya";
 
@@ -46,7 +46,7 @@ function EYForm() {
 
 const PILLARS = [
   { img: wellbeing.url, t: "Emotional wellbeing first", d: "Feelings are named, welcomed and cared for before any lesson begins." },
-  { img: arts.url, t: "Play-based inquiry under the Amra canopy", d: "Mud, leaves, stories and questions. Learning that follows a child's wonder." },
+  { img: arts.url, t: "Play-based inquiry", d: "Mud, leaves, stories and questions. Learning that follows a child's wonder." },
   { img: sports.url, t: "Dedicated caretaker attention", d: "Caretakers watch over meals, washroom and play through the whole day." },
 ];
 
