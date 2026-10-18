@@ -27,6 +27,14 @@ import wayHandsSrc from "@/assets/way/way-hands.webp";
 const wayHands = { url: wayHandsSrc };
 import wayStageSrc from "@/assets/way/way-stage.webp";
 const wayStage = { url: wayStageSrc };
+import voiceFounderSrc from "@/assets/voices/voice-founder.jpg";
+const voiceFounder = { url: voiceFounderSrc };
+import voiceHeadSrc from "@/assets/voices/voice-school-head.jpg";
+const voiceHead = { url: voiceHeadSrc };
+import voicePrimarySrc from "@/assets/voices/voice-primary-coordinator.jpg";
+const voicePrimary = { url: voicePrimarySrc };
+import voiceSportsSrc from "@/assets/voices/voice-sports-coordinator.jpg";
+const voiceSports = { url: voiceSportsSrc };
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -153,10 +161,10 @@ const LIFE = [
 ];
 
 const VOICES = [
-  { who: "From the Founder's desk", name: "Our Founder", img: conscious, quote: "I started Ekaaya because every child deserves a school that makes room for who they are, not one that asks them to fit in. We are building today for what comes next." },
-  { who: "From the School Head", name: "Our School Head", img: competent, quote: "Every child holds a world of possibilities and a unique potential to grow. As educators, our greatest privilege is to nurture curiosity, build confidence and character, and empower children to discover who they can become." },
-  { who: "From the Primary Coordinator", name: "Primary coordinator", img: arts, quote: "Welcome to Our Primary Years! We believe every child is curious and capable. We nurture joyful, meaningful learning beyond textbooks, building confidence, values and life skills to help children become independent, compassionate and responsible lifelong learners." },
-  { who: "Sports coordinator", name: "Sports coordinator", img: sports, quote: "Play, movement and sport give children a way to try, join in, and grow confident together." },
+  { who: "From the Founder's desk", name: "Our Founder", img: voiceFounder, quote: "I started Ekaaya because every child deserves a school that makes room for who they are, not one that asks them to fit in. We are building today for what comes next." },
+  { who: "From the School Head", name: "Our School Head", img: voiceHead, quote: "Every child holds a world of possibilities and a unique potential to grow. As educators, our greatest privilege is to nurture curiosity, build confidence and character, and empower children to discover who they can become." },
+  { who: "From the Primary Coordinator", name: "Primary coordinator", img: voicePrimary, quote: "We believe every child is curious and capable. We nurture joyful, meaningful learning beyond textbooks, building confidence, values and life skills to help children become independent, compassionate and responsible lifelong learners." },
+  { who: "Sports coordinator", name: "Sports coordinator", img: voiceSports, quote: "Play, movement and sport give children a way to try, join in, and grow confident together." },
 ];
 
 function Index() {
