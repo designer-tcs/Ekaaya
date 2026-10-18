@@ -154,10 +154,9 @@ const LIFE = [
 
 const VOICES = [
   { who: "From the Founder's desk", name: "Our Founder", img: conscious, quote: "I started Ekaaya because every child deserves a school that makes room for who they are, not one that asks them to fit in. We are building today for what comes next." },
-  { who: "From the School Head", name: "Our School Head", img: competent, quote: "In our first year, we promise one thing: every child will be known by name, by strength and by spark. Competent, compassionate and conscious is how we measure success." },
-  { who: "Early Years Educator", name: "An Early Years Teacher", img: compassionate, quote: "We follow the child's questions. Under the Amra canopy, a single fallen leaf can become a whole week of wonder." },
-  { who: "Primary Years Educator", name: "A Primary Teacher", img: arts, quote: "I want my learners to think, not just memorise, to connect ideas across subjects and to feel proud of what they make." },
-  { who: "Care Team", name: "Our Caretaker", img: wellbeing, quote: "I am here to watch over your little ones through the whole day, from the morning hello to the moment they go home safe." },
+  { who: "From the School Head", name: "Our School Head", img: competent, quote: "Every child holds a world of possibilities and a unique potential to grow. As educators, our greatest privilege is to nurture curiosity, build confidence and character, and empower children to discover who they can become." },
+  { who: "From the Primary Coordinator", name: "Primary coordinator", img: arts, quote: "Welcome to Our Primary Years! We believe every child is curious and capable. We nurture joyful, meaningful learning beyond textbooks, building confidence, values and life skills to help children become independent, compassionate and responsible lifelong learners." },
+  { who: "Sports coordinator", name: "Sports coordinator", img: sports, quote: "Play, movement and sport give children a way to try, join in, and grow confident together." },
 ];
 
 function Index() {

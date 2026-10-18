@@ -101,8 +101,7 @@ function EarlyYears() {
       </section>
 
       <section className="mx-auto max-w-4xl px-5 py-16 text-center">
-        <p className="font-script text-3xl text-brand-green">"I am here to watch over your little ones through the whole day."</p>
-        <p className="mt-2 text-sm text-muted-foreground">— Our Early Years caretaker</p>
+        <p className="font-script text-3xl text-brand-green">"The measure of a great school is not how quickly it shapes children, but how patiently it allows them to become."</p>
         <a href="#book" className="mt-8 inline-block rounded-lg bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground">Book an Early Years Discovery Session</a>
       </section>
       <SiteFooter />
