@@ -3,7 +3,7 @@ import { useState, type FormEvent } from "react";
 import { useLeadSubmit } from "@/components/ekaaya";
 import logoSrc from "@/assets/logo.png";
 const logo = { url: logoSrc };
-import heroSrc from "@/assets/hero-clean.jpg";
+import heroSrc from "@/assets/hero-home.jpg";
 const hero = { url: heroSrc };
 import competentSrc from "@/assets/competent2.jpg";
 const competent = { url: competentSrc };
