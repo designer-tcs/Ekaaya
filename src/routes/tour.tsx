@@ -79,7 +79,7 @@ function TourForm() {
 
 const HIGHLIGHTS = [
   { img: competent.url, t: "Open learning courtyards", d: "Classrooms that open into green, light-filled spaces." },
-  { img: compassionate.url, t: "Outdoor learning", d: "Outdoor inquiry, stories and play beneath the mango trees." },
+  { img: compassionate.url, t: "Outdoor learning", d: "Nature, stories and play, beyond the classroom walls." },
   { img: conscious.url, t: "Meet the founding educators", d: "Sit with the people who will know your child by name." },
 ];
 
