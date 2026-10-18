@@ -89,7 +89,7 @@ function TourPage() {
       <SiteHeader cta="Book a Tour" />
       {/* Fold 1 */}
       <section className="relative">
-        <img src={hero.url} alt="A child drawing her future on a white wall" className="absolute inset-0 h-full w-full object-cover object-right" />
+        <img src={hero.url} alt="A child drawing a rocket on a courtyard wall" className="absolute inset-0 h-full w-full object-cover object-left" />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/30" />
         <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-5 py-12 md:grid-cols-[1.1fr_1fr] md:py-16">
           <div>
