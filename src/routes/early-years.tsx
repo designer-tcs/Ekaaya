@@ -54,21 +54,24 @@ function EarlyYears() {
   return (
     <main className="overflow-x-hidden bg-background pb-14 text-foreground sm:pb-0">
       <SiteHeader cta="Book a Session" />
-      <section className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-12 md:grid-cols-[1.1fr_1fr] md:py-16">
-        <div>
-          <span className="inline-block rounded-md bg-brand-green px-3 py-1 font-serif text-sm text-primary-foreground">Early Years · Ages 3 to 6</span>
-          <p className="mt-6 font-script text-3xl text-foreground/80">Every child grows differently.</p>
-          <h1 className="text-5xl font-bold leading-[1.05] text-brand-brown md:text-6xl">Small steps.<br />Safe hands.</h1>
-          <Underline className="w-56" />
-          <p className="mt-5 max-w-md text-lg text-muted-foreground">For toddlers, nursery and kindergarten: a calm, joyful first school where your child is held, heard and free to play.</p>
-          <img src={compassionate.url} alt="Young children learning together" className="mt-8 aspect-[16/9] w-full max-w-md rounded-2xl border-4 border-card object-cover object-[center_30%] shadow-md" />
+      <section className="relative">
+        <img src={compassionate.url} alt="Young children learning together" className="absolute inset-0 h-full w-full object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/30" />
+        <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-5 py-12 md:grid-cols-[1.1fr_1fr] md:py-16">
+          <div>
+            <span className="inline-block rounded-md bg-brand-green px-3 py-1 font-serif text-sm text-primary-foreground">Early Years · Ages 3 to 6</span>
+            <p className="mt-6 font-script text-3xl text-foreground/80">Every child grows differently.</p>
+            <h1 className="text-5xl font-bold leading-[1.05] text-brand-brown md:text-6xl">Small steps.<br />Safe hands.</h1>
+            <Underline className="w-56" />
+            <p className="mt-5 max-w-md text-lg text-muted-foreground">For toddlers, nursery and kindergarten: a calm, joyful first school where your child is held, heard and free to play.</p>
+          </div>
+          <Card>
+            <div id="book" className="scroll-mt-24" />
+            <p className="font-script text-2xl text-brand-green">For parents of little ones</p>
+            <p className="mb-4 font-serif text-xl font-semibold">Visit, play or read first</p>
+            <EYForm />
+          </Card>
         </div>
-        <Card>
-          <div id="book" className="scroll-mt-24" />
-          <p className="font-script text-2xl text-brand-green">For parents of little ones</p>
-          <p className="mb-4 font-serif text-xl font-semibold">Visit, play or read first</p>
-          <EYForm />
-        </Card>
       </section>
 
       <section className="bg-muted/60 px-5 py-16">
